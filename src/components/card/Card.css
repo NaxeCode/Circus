@@ -1,0 +1,27 @@
+/* Card.css */
+.background {
+	background-color: var(--ten);
+	min-width: 150px; /* Minimum width to ensure it doesn't get too small */
+	min-height: 150px; /* Minimum height to ensure it doesn't get too small */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for better visibility */
+	padding: 5px; /* Optional: adds some padding */
+	border-radius: 25px;
+	margin: 10px;
+	transition: background-color 0.5s, box-shadow 0.5s, transform 0.7s;
+}
+
+p {
+	font-size: 50px;
+	color: var(--white);
+}
+
+.card-link {
+	text-decoration: none; /* Remove default link styling */
+	color: inherit; /* Inherit color from the parent */
+}
+
+.background:hover {
+	box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.1);
+	background-color: var(--thirty);
+	transform: translateY(-5px);
+}
