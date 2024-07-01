@@ -6,7 +6,7 @@ import {
 	useLocation,
 } from 'react-router-dom';
 import Card from './components/card/Card';
-import TicTacToe from './pages/TicTacToe';
+import TicTacToe from './pages/tiktactoe/TicTacToe';
 import './App.css';
 import Memory from './pages/Memory';
 import Sodoku from './pages/Sodoku';
